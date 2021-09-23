@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{ce003f6e-3552-4e7c-933d-dfdfc2a9a9e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Logo">
+      <UniqueIdentifier>{623a2a7d-f63f-4de0-8aba-181dd08b1f03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Menu">
+      <UniqueIdentifier>{c2ccfb21-9b05-4b82-a6eb-2a00fec22d38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Stage">
+      <UniqueIdentifier>{b782e8f3-52c7-47dd-9298-12f22584f269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager">
+      <UniqueIdentifier>{28ec1131-c204-4226-9f38-657308fae2b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager\SceneManager">
+      <UniqueIdentifier>{3684d941-73b4-4207-aea7-90f4e5318ab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager\ConsoleManager">
+      <UniqueIdentifier>{cb2b630b-a0ed-484a-88ec-b1d60ed6dd33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj">
+      <UniqueIdentifier>{3a7c6df9-32e0-46c0-9fa8-d28c21471aef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Player">
+      <UniqueIdentifier>{1c4b9c14-041e-407e-9d9b-1df80ff57038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Enemy">
+      <UniqueIdentifier>{dd2e0864-5170-4834-8274-b6ff6912e1f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager\CollisionManager">
+      <UniqueIdentifier>{3c633179-22ee-4e3a-aae1-2d6e1137ed4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager\ObjectPoolManager">
+      <UniqueIdentifier>{4a4b0490-a0ce-46b0-b7ea-2e137547c67f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Bullet">
+      <UniqueIdentifier>{6921c1ce-1e86-4841-a277-483596f91739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\LeftBullet">
+      <UniqueIdentifier>{ecdecd47-b289-41c4-92ef-64dac1b18e5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager\DoubleBuffer">
+      <UniqueIdentifier>{fc86047b-0b52-4b5d-ad2d-3721960c5c7c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cmain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>소스 파일\Scene\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>소스 파일\Scene\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>소스 파일\Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>소스 파일\Manager\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleManager.cpp">
+      <Filter>소스 파일\Manager\ConsoleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>소스 파일\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Obj\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>소스 파일\Obj\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>소스 파일\Manager\CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPoolManager.cpp">
+      <Filter>소스 파일\Manager\ObjectPoolManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>소스 파일\Obj\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="LeftBullet.cpp">
+      <Filter>소스 파일\Obj\LeftBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleBuffer.cpp">
+      <Filter>소스 파일\Manager\DoubleBuffer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>소스 파일\Scene\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>소스 파일\Scene\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>소스 파일\Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>소스 파일\Manager\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleManager.h">
+      <Filter>소스 파일\Manager\ConsoleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>소스 파일\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\Obj\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>소스 파일\Obj\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>소스 파일\Manager\CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPoolManager.h">
+      <Filter>소스 파일\Manager\ObjectPoolManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>소스 파일\Obj\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="LeftBullet.h">
+      <Filter>소스 파일\Obj\LeftBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleBuffer.h">
+      <Filter>소스 파일\Manager\DoubleBuffer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
